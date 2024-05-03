@@ -561,9 +561,10 @@ text-align: center;
     padding-top: 90px;
     justify-content: center;
     align-items: center;
-    width
     /* padding-bottom: 50px; */
 }
+
+
 .featuredpara{
 font-size: 14px;
 max-width: 550px;
@@ -652,3 +653,9 @@ max-width: 40;
 .getintouch,.info,.featuring,.Resource{
     color: #252B42;
 }
+
+.feature-cont i{
+    display: flex;
+    justify-content: center;
+}
+

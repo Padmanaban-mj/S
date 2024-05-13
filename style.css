@@ -118,7 +118,6 @@ text-align: left;
     font-size: 15px;
     font-weight: 500;
     line-height: 30px;
-    /* padding-top: 10px; */
     letter-spacing: 0.20000000298023224px;
     text-align: left;
     width: 376px;
@@ -175,7 +174,7 @@ text-align: center;
     display: flex;
     gap: 40px;
     padding-top: 50px;
-    grid-template-columns:repeat(4,1fr) ;
+    grid-template-columns:repeat(3,1fr) ;
 } 
 .square-border{
     background-color:#23A6F0;
@@ -455,18 +454,22 @@ gap: 5px;
     justify-content: center;
     align-items: center;
 }
-.cardssection{
+ .cardssection-product{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-}
+} 
 .cards-content-total{
 padding: 10px;
 }
 .timer1-cont,.timer2-cont,.timer3-cont{
 color: #737373;
 }
-.section-three{
+.section-pricing{
     padding: 100px 0px;  
+}
+.customer-actions{
+    align-items: center;
+    justify-content: center;
 }
 .price-headline{
     font-weight: 700;
@@ -477,16 +480,44 @@ color: #737373;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
 }
+.pricing-header{
+    color: #23A6F0;
+}
+.pricing-title{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.pricing-article{
+display: flex;
+flex-direction: column;
+gap: 10px;
+font-size: 14px;
+color: #737373;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+padding-bottom: 70px;
+}
+.pricing-para{
+color: #737373;
+font-weight: 500;
+max-width: 524px;
+}
 .pricing-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #40BB15;
-    color: white;
-    width: 96px;
-    height: 96px;
-    padding: 24px 23px 24px 25px;
-    border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #40BB15;
+color: white;
+width: 96px;
+height: 96px;
+padding: 24px 23px 24px 25px;
+border-radius: 50%;
 }
 .price-cont{
  padding-top: 20px;
@@ -498,6 +529,16 @@ line-height: 24px;
 letter-spacing: 0.20000000298023224px;
 text-align: left;
 }
+.product-button a{
+    color: #23A6F0;
+    color: #23A6F0;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .customer-price{
 display: flex;
 color: #23A6F0;
@@ -526,7 +567,7 @@ text-align: left
     letter-spacing: 0.20000000298023224px;
     text-align: left; 
 }
-.acess-btn{
+.acess-btn {
     background-color: #23A6F0;
     color: white;
     border: none;
@@ -534,9 +575,10 @@ text-align: left
     width: 220px;
     height: 40px;
 }
+.acess-btn a {
+color: white;
+}
 .features-list{
-/* width: 269px;
-height: 236px; */
 text-decoration: none;
 }
 .features{
@@ -564,12 +606,13 @@ text-decoration: none;
 }
 .pricing-style{
     margin: 0;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.19);
-    padding: 25px 35px;
+    box-shadow:0 1px 0.5px 0 rgba(0, 0, 0, 0.1), 0 0px 1px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px 61px;
     gap: 20px;
     position: relative;
 
 } 
+
 .feature-cont{  
     font-size: 12px;
     font-weight: 700;
@@ -618,20 +661,44 @@ margin: 0;
 }
 .experts-adpage{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.final-page{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 515px;
+}
+.experts-header{
+    color: #23A6F0;
+}
+.experts-title{
+    color: #252B42;
+}
+.experts-para{
+font-size: 14px;
+font-weight: 500;
+color: #737373;
+line-height: 20px;
+padding-bottom: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+}
+.teacher-image{
+border-radius: 50%;
+display: flex;
+flex-direction: row;
+padding: 20px 79px;
+max-width: 278px;
+flex-direction: row;
+
 }
 .articles-para{
     max-width: 499px;
 }
-.timg{
-    padding-bottom: 90px;
-    padding-top: 90px;
-    width: 50px;
-    height: 50px;
-    padding-left: 85px;
-}
-.teacher-image{
-border-radius: 50%;
-}
+
 .about-teacher{
 font-size: 14px;
 font-weight: 400;
@@ -652,7 +719,7 @@ text-align: center;
     max-width: 300px;
     color: #737373;
     font-weight: 400;
-    padding-top: 90px;
+    
 }
 .Names{
     font-size: 16px;
@@ -670,13 +737,10 @@ text-align: center;
 }
 .searchbar{
     display: flex;
-    padding-top: 90px;
+    padding-top: 70px;
     justify-content: center;
     align-items: center;
-    /* padding-bottom: 50px; */
 }
-
-
 .featuredpara{
 font-size: 14px;
 max-width: 550px;
@@ -696,6 +760,7 @@ text-align: left;
 }
 .pink{
     background-color: #FFDCD1;
+    height: 570px;
 }
 .featured{
     display: flex;
@@ -717,11 +782,11 @@ text-align: left;
 color: #737373;
 }
 .subscribe-btn{
-background-color: #23A6F0;
-color: white;
-border: none;
-width: 108px;
-height: 40px;
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+    width: 108px;
+    height: 40px;
 }
 .searchline{
 border: none;
@@ -730,9 +795,9 @@ height: 40px;
 padding-left: 20px;
 }
 .search-section{
-    padding-bottom: 100px;
+padding-bottom: 100px;
 }
-.social-media{
+.social-media a{
     color: #23A6F0;
     display:flex ;
     gap: 80px;
@@ -741,6 +806,9 @@ padding-left: 20px;
 .types-social{
     display: flex;
     gap: 20px;
+}
+.social-media .types-social a{
+    color:#23A6F0;
 }
 .final-para{
 color: #737373;
@@ -753,22 +821,52 @@ text-align: left;
 .company_details, .features-offering, .devices{
     color: #737373;
 }
+.footer-featured{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.footerheader{
+    color: #23A6F0;
+}
+.footer-title{
+    color: #252B42;
+}
+.footerpara{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+}
+
 .info{
 max-width: 40;
 }
+.final a{
+color: #737373;
+}
 .final{
-    display: flex;
-    gap: 120px;
-    padding-bottom: 20px;
-    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    padding-bottom: 50px;
 }
-.getintouch,.info,.featuring,.Resource{
+.getintouch .info .featuring .Resource{
     color: #252B42;
+flex-direction: column; 
+text-overflow: ellipsis;
+max-width: 100%; 
+overflow: hidden;
 }
-
 .feature-cont i{
     display: flex;
     justify-content: center;
+}
+.getintouch .info .featuring .Resource{
+
 }
 .end-section{
     color: #737373;

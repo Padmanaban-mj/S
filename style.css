@@ -13,25 +13,70 @@ body{
 }
 .bg_color{
     background-color:white;
-    padding-bottom: 20px;
 }
 .section-nav{
         display: flex;
-        padding-top: 20px;
+        padding: 20px 0px 20px 0px;
         align-items: center;
         justify-content: space-between;
+}
+.nav-bar li a:hover {
+color:#B2E3FF;
+}
+.Brand{
+    font-size: 32px
+}
+.dropdown {
+ visibility: hidden;
+ z-index: 1;
+ position: absolute;
+list-style-type: none;
+padding: 25px 0;
+top: 74px;
+position: fixed;
+background-color:beige;
+display: flex;
+flex-direction: column;
+ gap: 20px;
+ padding: 7px 7px;
+ border-radius: 3px;
+} 
+
+.nav-bar li a{
+    color: #737373;
+}
+
+.dropdown li a{
+    color: #737373;
 }
 .container{
     margin: 0 auto;
     max-width: 1080px;    
 }
+
+.menu:hover .dropdown {
+visibility: visible;
+transition: all ease-in-out 0.2s;
+margin-top: -10px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+align-items: flex-end;
+}
+.dropdown li:hover{
+    background-color: #252B42;
+    padding: 5px 5px;
+    border-radius: 50px;
+}
 .nav-bar{
 display: flex;
 align-items:center ;
-gap: 20px;
+gap: 32px;
 color: #737373;
 font-weight:700;
-font-size: 14px;
+font-size: 20px;
 list-style: none;
 }
 .nav-bar-elements{
@@ -40,6 +85,7 @@ list-style: none;
         justify-content: space-between;
         flex: 1;
 }
+
 .nav-bar .nav-elms a{
     color: #737373;
 }
@@ -67,7 +113,7 @@ gap: 30px;
     border: transparent;
      background:none;
      font-weight: 700;
-     font-size: 14px;
+     font-size: 20px;
 }
 .collaborate-btn{
     background-color:#23A6F0 ;
@@ -76,6 +122,7 @@ gap: 30px;
     height: Hug (52px)px;
     padding: 15px 25px 15px 25px;
     gap: 15px;
+    font-size: 20px;
     border-radius: 5px;
     border: none;
     opacity: 0px;   
@@ -179,8 +226,8 @@ text-align: center;
 .square-border{
     background-color:#23A6F0;
     border-radius: 25%;
-    height: 110px;
-    width: 110px;
+    height: 85px;
+    width: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -615,7 +662,7 @@ text-decoration: none;
     
 }
 .black-tick{
-background-color:#737373;
+background-color:#BDBDBD;
 border-radius: 50%;
 color:white;
 width: 32px;
@@ -624,7 +671,7 @@ padding: 10px 8px 11px 8px;
 opacity: 0px;
 }
 .experts-ad{
-padding-top:100px;
+/* padding-top:100px; */
 margin: 0;
 }
 .rating-stars{
@@ -711,7 +758,7 @@ text-align: center;
 }
 .searchbar{
     display: flex;
-    padding-top: 70px;
+    padding-top: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -735,7 +782,7 @@ text-align: left;
 .pink{
     background-color: #FFDCD1;
     height: 570px;
-    width: 100%;
+    /* width: 100%; */
 }
 .featured{
     display: flex;

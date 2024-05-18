@@ -15,60 +15,54 @@ body{
     background-color:white;
 }
 .section-nav{
-        display: flex;
-        padding: 20px 0px 20px 0px;
-        align-items: center;
-        justify-content: space-between;
+display: flex;
+padding: 20px 0px 20px 0px;
+align-items: center;
+justify-content: space-between;
 }
 .nav-bar li a:hover {
 color:#B2E3FF;
 }
 .Brand{
-    font-size: 32px
+    font-size:30px
 }
 .dropdown {
- visibility: hidden;
- z-index: 1;
- position: absolute;
+visibility: hidden;
+z-index: 1;
+position: absolute;
 list-style-type: none;
 padding: 25px 0;
 top: 74px;
 position: fixed;
-background-color:beige;
+background-color:whitesmoke;
 display: flex;
 flex-direction: column;
- gap: 20px;
- padding: 7px 7px;
- border-radius: 3px;
+gap: 20px;
+padding: 13px 13px;
+border-radius: 3px;
 } 
-
 .nav-bar li a{
-    color: #737373;
-}
-
-.dropdown li a{
-    color: #737373;
+color: #737373;
 }
 .container{
-    margin: 0 auto;
-    max-width: 1080px;    
+margin: 0 auto;
+max-width: 1080px;    
 }
-
 .menu:hover .dropdown {
 visibility: visible;
 transition: all ease-in-out 0.2s;
 margin-top: -10px;
 }
 .arrow{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
+display: flex;
+flex-direction: row;
+gap: 5px;
 align-items: flex-end;
 }
 .dropdown li:hover{
-    background-color: #252B42;
-    padding: 5px 5px;
-    border-radius: 50px;
+background-color: #252B42;
+padding: 5px 5px;
+border-radius: 50px;
 }
 .nav-bar{
 display: flex;
@@ -76,18 +70,18 @@ align-items:center ;
 gap: 32px;
 color: #737373;
 font-weight:700;
-font-size: 20px;
+font-size: 18px;
 list-style: none;
 }
 .nav-bar-elements{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex: 1;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex: 1;
 }
 
 .nav-bar .nav-elms a{
-    color: #737373;
+color: #737373;
 }
 .btn-grp{
 display: flex;
@@ -96,11 +90,10 @@ gap: 30px;
 }
 .btn-grp .Signup-btn a {
     color:#23A6F0;
-
+    font-size: 18px;
 }
 .btn-grp .collaborate-btn a {
     color: white;
-
 }
 .collaborate-btn{
     display: flex;
@@ -122,7 +115,7 @@ gap: 30px;
     height: Hug (52px)px;
     padding: 15px 25px 15px 25px;
     gap: 15px;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
     border: none;
     opacity: 0px;   
@@ -372,23 +365,21 @@ max-width: 499px;
     position: relative;
 }
 .product-notice {
-        position: absolute;
-        left: 25px;
-        top: 0px;
-        background-color: tomato;
-        color: white;
-        overflow: hidden;
-        text-align: center;
-        width: 43px;
-        font-size: revert;
-        max-width: 48px;
-        border-radius: 4px;
-        padding: 4px 4px;
-        display: flex;
-        flex-direction: column;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    background-color: tomato;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    font-size: medium;
+    max-width: 205px;
+    border-radius: 4px;
+    padding: 5px 5px;
+    flex-direction: column;
+    white-space: nowrap;
+    text-overflow: ellipsis;   
+}
 .product-img{
 width: 238px;
 height: 300px;
@@ -406,6 +397,9 @@ left: 49px;
 gap: 10px;
 opacity: 0px;
 }
+.customer-actions a{
+    color: #252B42;
+}
 .options{
 background-color: white;
 border-radius: 50%;
@@ -416,20 +410,19 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
 .cards-content {
-        display: flex;
         flex-direction: column;
         text-overflow: ellipsis;
-        max-width: 74px;
+        max-width: 175px;
         white-space: nowrap;
         overflow: hidden;
-}
+    }
 .launguage{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     color: #23A6F0;
-    gap: 112px;
 }
 .product-rating{
     color:white;
@@ -512,6 +505,10 @@ padding: 10px;
 }
 .timer1-cont,.timer2-cont,.timer3-cont{
 color: #737373;
+    max-width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .section-pricing{
     padding: 100px 0px;  
@@ -756,6 +753,9 @@ text-align: center;
     flex-direction: row;
     justify-content: space-around;
 }
+.staffs-img{
+    max-width: 319px;
+}
 .searchbar{
     display: flex;
     padding-top: 50px;
@@ -819,6 +819,7 @@ text-align: center;
 .searchline{
 border: none;
 width: 508px;
+outline: none;
 border-radius: 3px 0 0 3px ;
 height: 50px;
 padding-left: 20px;
@@ -875,7 +876,7 @@ color: #737373;
     align-items: start;
 }
 .getintouch .info .featuring .Resource{
-    color: #252B42;
+color: #252B42;
 flex-direction: column; 
 text-overflow: ellipsis;
 max-width: 100%; 

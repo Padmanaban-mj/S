@@ -1,0 +1,212 @@
+@media(max-width:1095px){
+    .btn-grp{
+        padding: 0;
+
+    }
+
+}
+@media(max-width:1226px){
+    .nav-bar-elements{
+        gap: 0px;
+       /* padding-right: 50px; */
+    }
+    .nav-bar{
+        gap: 20px;
+
+    }
+    .btn-grp{
+        gap:20px ;
+    }
+
+}
+@media(max-width:1337px){
+    .nav-bar-elements{
+    /* padding-right: 50px; */
+
+}
+}
+@media (max-width:1218px){
+   
+}
+
+
+@media (max-width:869px){
+
+    .nav-bar ,.Signup-btn {
+        display: none;
+    }
+    .collaborate-btn{
+        justify-content: space-between;
+        flex: 1;
+    }
+    .nav-bar-elements{
+        justify-content: end;
+      }
+
+}
+@media(max-width:890px){
+    .subject{
+       
+        text-align: center;
+    }
+
+}
+
+@media ( max-width:1092px){
+
+    .hero{
+        align-items: center;
+        flex-direction: column;
+    }
+    .image-section{
+        /* display: none; */
+        flex-direction: row;
+    
+     }
+     .section-stastics{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 50px 0px 50px 0px;  
+     }
+     .sectionstastics-tittle{
+        padding: 50px 0px 50px 0px;  
+        
+
+     }
+     .sub{
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-image{
+        display: none;  
+    }   
+    .hero-section{
+        align-items: center;
+        justify-content: center;
+
+    }
+    .cardssection{
+        grid-template-columns:repeat(2,1fr);
+    
+    }
+    .Redline{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+   
+@media (max-width:1000px){
+   .btn-grp{
+    gap: 10px;
+
+   }
+
+}
+
+@media (max-width:698px) {
+        .cardssection {
+            gap: 50px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+          
+    }
+            .image-section{
+                width: fit-content;
+                height: auto;
+               
+            }
+    }
+    
+@media (max-width:1095px){
+
+   .product_card_sec{
+    align-items: center;
+    justify-content: center;
+}
+.Main-cmn-title {
+align-items: center;
+justify-content: center;
+}
+.product-title{
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media(max-width:888){
+    .cmn-header{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-title{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .cmn-para{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing-box{
+    flex-direction: column;
+    max-width: 27%;
+    }
+    .experts-adpage{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .final{
+        grid-template-columns: repeat(2, 1fr)
+
+    }
+    .final-page{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .cmn-header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+   
+}
+
+@media(max-width:882px){
+    .pricing-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 50;
+        gap: 50px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        justify-items: center;
+        
+    }
+
+}
+@media(max-width:735px){
+    .product-title{
+        text-align: center;
+    }
+}
+@media(max-width:670px){
+    .experts-adpage{
+flex-direction: column;
+    }
+}
+    @media(max-width:900px){
+        .final{
+grid-template-columns: repeat(2,1fr);
+        }
+    }

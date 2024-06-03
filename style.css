@@ -246,6 +246,9 @@ text-align: center;
     font-size: 30px;
     color: white;
 }
+.img-section{
+    max-width: 100%;
+}
 .box{
     max-width: 316px;
     gap: 10px;
@@ -290,22 +293,32 @@ opacity: 0px;
 .sectionstastics-tittle{
     padding: 96px 13px;
 } 
- .Redline{
+ /* .Redline{
 background-color: red;
 border: none;
 margin: 0;
 width: 80px;
 height: 7px;
-}
+} */
 .headline{
 display: flex;
 flex-direction: column; 
 text-overflow: ellipsis;
 max-width: 100;
 overflow: hidden; 
+gap: 15px;
 color: #252B42;
 width: 350px;
 
+}
+.headline::before{
+    display: flex;
+
+    content: " ";
+    width: 80px;
+    background-color: red;
+    border: none;
+    height: 7px;
 }
 .explore-btn a{
 display: flex;

@@ -58,11 +58,7 @@ max-width: 1080px;
 padding: 0px 10px; 
 /* background-color: aqua;   */
 }
-.menu:hover .dropdown {
-visibility: visible;
-transition: all ease-in-out 0.2s;
-margin-top: -10px;
-}
+
 .arrow{
 display: flex;
 flex-direction: row;
@@ -74,6 +70,9 @@ background-color:#23A6F0;
 
 padding: 5px 5px;
 border-radius: 50px;
+}
+#checkbtn{
+    display: none;
 }
 .nav-bar{
 display: flex;
@@ -107,7 +106,7 @@ gap: 30px;
 }
 label .Hamburger{
     color: black;
-    background-color: antiquewhite;
+    /* background-color: rgb(186, 139, 79); */
     padding: 8px;
     display: flex;
     max-width: 30px;
@@ -118,10 +117,10 @@ label .Hamburger{
     gap: 5px;
     
 }
-/* #check{
+#check{
     display: none;
 
-} */
+}
 #click-btn{
     display: none;
 }

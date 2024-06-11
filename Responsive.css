@@ -24,6 +24,14 @@ grid-template-columns:repeat(2,1fr);
     /* padding-right: 50px; */
 }
 }
+@media (min-width:869px){
+    .menu:hover .dropdown {
+        visibility: visible;
+        transition: all ease-in-out 0.2s;
+        margin-top: -10px;
+        }
+}
+
 @media (max-width:869px){
 
     .nav-bar ,.Signup-btn {
@@ -324,28 +332,101 @@ padding-left: 25px;
     label .Hamburger{
     display: block;
     }
-    
+ }   
 @media(max-width:869px){
     .nav-bar {
         
-        position: absolute;
+        position: fixed;
         display: flex;
-        background: red;
+        background: rgb(73, 91, 32);
+        visibility: hidden;
+        color: aqua;
         flex-direction: column;
-        right: 87%;
-        top: 50px;
+        /* right: 87%; */
+        top: 52px;
         padding: 8px;
         top: 50px;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
+        width: 32%;
+        height: 100vh;
+        /* gap: 0px; */
+
+    
+    }
+
+    #check:checked ~ .nav-bar-elements .nav-bar{
+        /* display: block; */
+        visibility: visible;
+        left: 0px;
+        padding: 1.5rem 2rem;
+        /* background-color: #222831; */
+        color: #fff;
+        overflow-y: scroll;
+       
+       }
+    
+    #checkbtn:checked ~ .dropdown{
+        visibility: visible;
+        left: 0px;
+        top: 5px;
+        position: relative;
+    }
+
+    .section-nav{
+        padding: 10px 0px;
+      
+    }
+    .bg_color{
+        position: sticky;
+        z-index: 2;
+        top: 0px;
     }
 }
- }
-   #check:checked ~ .nav-bar{
-    /* display: block; */
-    padding: 1.5rem 2rem;
-    background-color: #222831;
+@media(max-width:450px){
+.sectionstastics-tittle {
+    padding: 0;
+    margin: 0;
+}
+.section-stastics{
+    padding: 30px;
+    margin: 0;
+}
+.Main-cmn-title{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}  
+
+.section-pricing{
+    padding: 10px;
+    margin: 0;
+    gap: 0; 
+}
+.footer-featured{
+    padding: 10px;
+    margin: 0;
+    gap: 0;  
+}
+.pink{
+    height: 463px;
+} 
+check:checked ~ .nav-bar-elements .nav-bar {
+   
+    visibility: visible;
+    left: 0px;
+    padding: 1.5rem 5rem;
     color: #fff;
-    }
+    overflow-y: scroll;
+
+}
+.designation {
+    padding-bottom: 50px;
+}
+}
+
+
+
+ 
     

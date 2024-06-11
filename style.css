@@ -90,6 +90,9 @@ align-items: center;
 justify-content: space-between;
 flex: 1;
 }
+.check{
+    display: block;
+}
 .nav-bar .nav-elms a{
 color: #737373;
 }
@@ -102,12 +105,25 @@ gap: 30px;
     color:#23A6F0;
     font-size: 18px;
 }
-.Hamburger{
+label .Hamburger{
     color: black;
     background-color: antiquewhite;
     padding: 8px;
     display: flex;
     max-width: 30px;
+    display: none;
+}
+.hambur{
+    margin:5px ;
+    gap: 5px;
+    
+}
+/* #check{
+    display: none;
+
+} */
+#click-btn{
+    display: none;
 }
 .btn-grp .collaborate-btn a {
     color: white;

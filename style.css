@@ -25,7 +25,7 @@ justify-content: space-between;
 color:#B2E3FF;
 }
 .Brand{
-    font-size:34px
+    font-size:24px
 }
 .dropdown {
     visibility: hidden;
@@ -110,7 +110,7 @@ label .Hamburger{
     color: black;
     padding: 8px;
     display: flex;
-    font-size: 30px;
+    font-size: 23px;
     max-width: 30px;
     display: none;
 }
@@ -148,7 +148,7 @@ label .Hamburger{
     color: white;
     width: Hug (137px)px;
     height: Hug (52px)px;
-    padding: 15px 25px 15px 25px;
+    padding: 14px 6px 14px 6px;
     gap: 15px;
     font-size: 16px;
     border-radius: 5px;
@@ -949,7 +949,15 @@ overflow: hidden;
     font-weight: 700;
     padding-top: 30px;
 }
-
+.Signupn-btn{
+    display: none;
+}
+.collaboraten-btn{
+    display: none;
+}
+.bten-grp button a{
+color: antiquewhite;
+}
 
 
 

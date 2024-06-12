@@ -434,4 +434,11 @@ padding-left: 25px;
 
 }
 
-    
+@media(max-width:365px){
+        #check:checked ~ .nav-bar-elements .nav-bar {
+            visibility: visible;
+            left: 0px;
+            padding: 1.5rem 8rem;
+            color: #fff;
+            overflow-y: scroll
+    }

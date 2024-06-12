@@ -48,7 +48,6 @@ grid-template-columns:repeat(2,1fr);
 }
 @media(max-width:890px){
     .subject{
-       
         text-align: center;
     }
 }
@@ -260,23 +259,23 @@ flex-direction: column;
 }
 
 @media(max-width:441px){
-    .collaborate-btn{
+    /* .collaborate-btn{
         padding: 10px 10px 10px 10px;
         gap: 10px;
 
-    }
-    .Brand{
+    } */
+    /* .Brand{
      font-size: 25px;
-    }
+    } */
 }
 @media(max-width:385px){
-    .collaborate-btn{
+    /* .collaborate-btn{
         padding: 8px 8px 8px 8px;
         gap: 10px;
     }
     .Brand{
      font-size: 22px;
-    }
+    } */
 }
 @media(max-width:400px){
     .subject{
@@ -337,33 +336,35 @@ padding-left: 25px;
     .nav-bar {
         
         position: fixed;
-        display: flex;
-        background: rgb(73, 91, 32);
+        z-index: 1;
+        /* display: flex; */
+        background: rgb(23, 47, 78);
         visibility: hidden;
         color: aqua;
-        flex-direction: column;
+        /* flex-direction: column; */
         /* right: 87%; */
         top: 52px;
         padding: 8px;
         top: 50px;
-        justify-content: flex-start;
+        /* justify-content: flex-start;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column; */
         width: 32%;
         height: 100vh;
-        /* gap: 0px; */
-
-    
+        
     }
 
     #check:checked ~ .nav-bar-elements .nav-bar{
-        /* display: block; */
+        
         visibility: visible;
         left: 0px;
-        padding: 1.5rem 2rem;
+        /* padding: 1.5rem 2rem; */
         /* background-color: #222831; */
         color: #fff;
         overflow-y: scroll;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
        
        }
     
@@ -373,7 +374,12 @@ padding-left: 25px;
         top: 5px;
         position: relative;
     }
-
+    #clickbtn:checked ~ .dropdown{
+        visibility: visible;
+        left: 0px;
+        top: 5px;
+        position: relative;
+    }
     .section-nav{
         padding: 10px 0px;
       
@@ -412,7 +418,7 @@ padding-left: 25px;
 .pink{
     height: 463px;
 } 
-check:checked ~ .nav-bar-elements .nav-bar {
+#check:checked ~ .nav-bar-elements .nav-bar {
    
     visibility: visible;
     left: 0px;
@@ -425,8 +431,18 @@ check:checked ~ .nav-bar-elements .nav-bar {
     padding-bottom: 50px;
 }
 }
-
-
+@media (max-width: 400px) {
+    #check:checked ~ .nav-bar-elements .nav-bar {
+        visibility: visible;
+        left: 0px;
+        padding: 0.5rem 6rem;
+        color: #fff;
+        overflow-y: scroll
+    }
+    .btn-grp{
+        flex-direction: column;
+    }
+}
 
  
     

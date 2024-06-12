@@ -25,7 +25,7 @@ justify-content: space-between;
 color:#B2E3FF;
 }
 .Brand{
-    font-size:30px
+    font-size:34px
 }
 .dropdown {
     visibility: hidden;
@@ -35,7 +35,7 @@ color:#B2E3FF;
     padding: 25px 0;
     top: 67px;
     position: fixed;
-    background-color: rgb(243, 194, 233);
+    background-color: #eee;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -43,7 +43,7 @@ color:#B2E3FF;
     border-radius: 3px;
 } 
 .dropdown .dropdown-inbetween{
-    color: rgb(163, 245, 242);
+    color: #8ec2f2;
     border: none;
     width: 94px;
     border: solid 2px;
@@ -67,11 +67,13 @@ align-items: flex-end;
 }
 .dropdown li:hover{
 background-color:#23A6F0;
-
 padding: 5px 5px;
 border-radius: 50px;
 }
 #checkbtn{
+    display: none;
+}
+#clickbtn{
     display: none;
 }
 .nav-bar{
@@ -80,7 +82,7 @@ align-items:center ;
 gap: 35px;
 color: #737373;
 font-weight:600;
-font-size: 17px;
+font-size: 14px;
 list-style: none;
 }
 .nav-bar-elements{
@@ -102,13 +104,13 @@ gap: 30px;
 }
 .btn-grp .Signup-btn a {
     color:#23A6F0;
-    font-size: 18px;
+    font-size: 14px;
 }
 label .Hamburger{
     color: black;
-    /* background-color: rgb(186, 139, 79); */
     padding: 8px;
     display: flex;
+    font-size: 30px;
     max-width: 30px;
     display: none;
 }
@@ -133,6 +135,9 @@ label .Hamburger{
      background:none;
      font-weight: 700;
      font-size: 20px;
+}
+.Hamburger{
+    font-size: 1rem;
 }
 .collaborate-btn{
     display: flex;
@@ -175,7 +180,7 @@ label .Hamburger{
 color: #23A6F0;
 margin: 0;
 /* padding-top: 90px; */
-font-size: 16px;
+font-size: 14px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0.10000000149011612px;
@@ -183,7 +188,7 @@ text-align: left;
 }
 .section-para{
     max-width: 300px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.20000000298023224px;
@@ -319,6 +324,7 @@ height: 7px;
 display: flex;
 flex-direction: column; 
 text-overflow: ellipsis;
+font-size: 40px;
 max-width: 100;
 overflow: hidden; 
 gap: 15px;
@@ -490,7 +496,7 @@ align-items: center;
         max-width: 226px;
         padding-top: 10px;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 20px;
         letter-spacing: 0.20000000298023224px;
         text-align: left;
@@ -722,7 +728,7 @@ margin: 0;
    padding: 10px;
 }
 .stars{
-    color: darkgoldenrod;
+    color: #F3CD03;
     display: flex;
    padding: 5px;
    
@@ -936,10 +942,11 @@ overflow: hidden;
     background-color: #FAFAFA;
     width: 100%;
     height: 80px;
+    font-size: 14px;
     display: flex;
     text-align: center;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 700;
     padding-top: 30px;
 }
 

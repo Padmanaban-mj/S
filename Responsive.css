@@ -263,9 +263,9 @@ flex-direction: column;
     .btn-grp{
         flex-direction: column;
     }
-    .collaborate-btn{
+    /* .collaborate-btn{
         display: none;
-    }
+    } */
     .headline{
         font-size: 30px;
     }

@@ -9,7 +9,7 @@
         display: flex;
      }
      .customer-actions{
-        width: 50%
+        /* width: 50% */
      }
 }
 @media(max-width:790px){

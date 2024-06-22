@@ -8,6 +8,10 @@
      .product-article{
         display: flex;
      }
+     .customer-actions{
+        /* top: 555px; */
+
+     }
 
 }
 @media(max-width:790px){
@@ -16,7 +20,7 @@
         flex-direction: column;
      }
       .customer-actions{
-        width: 100%
+        /* width: 100% */
      } 
 }
 @media(max-width:1226px){

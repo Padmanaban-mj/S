@@ -14,6 +14,8 @@ body{
 .bg_color{
     background-color:white;
 }
+
+
 .section-nav{
 display: flex;
 padding: 20px 0px 20px 0px;
@@ -33,7 +35,7 @@ color:#B2E3FF;
     position: absolute;
     list-style-type: none;
     padding: 25px 0;
-    top: 67px;
+    top: 60px;
     position: fixed;
     background-color: #eee;
     display: flex;
@@ -130,21 +132,29 @@ label .Hamburger{
 #click-btn{
     display: none;
 }
-.btn-grp .collaborate-btn a {
+.btn-grp .signin a {
     color: white;
 }
-.Signup-btn{
+.Signup-btn {
     color:#23A6F0;
-    border: transparent;
+    border: 1px solid transparent;
      background:none;
      font-weight: 700;
      font-size: 20px;
+     /* padding: 14px 14px 14px 3px; */
+     border-radius: 5px;
+}
+.left .Signup-btn{
+    border: 1px solid #23A6F0;
+    padding: 10px 30px 10px 30px;
 }
 .Hamburger{
     font-size: 1rem;
 }
-.collaborate-btn{
+.signin-btn{
     display: flex;
+    /* flex-direction: column; */
+    align-items: center;
     gap: 10px;
     font-weight: 600;
     align-items: center;
@@ -152,12 +162,24 @@ label .Hamburger{
     color: white;
     width: Hug (137px)px;
     height: Hug (52px)px;
-    padding: 14px 6px 14px 6px;
+    padding: 14px 14px 14px 14px;
     gap: 15px;
     font-size: 16px;
     border-radius: 5px;
     border: none;
     opacity: 0px;   
+}
+.sectionstastics-tittle .signin-btn {
+    background: none;
+    color: #23A6F0;
+   padding: 14px 14px 14px 0px;
+}
+.sectionstastics-tittle .signin-btn a{
+    /* background: none; */
+    color: #23A6F0;
+}
+.signin-btn a {
+    color: white;
 }
 
 .hero{
@@ -216,6 +238,10 @@ text-align: left;
     justify-content: start;
     opacity: 0px;
     display: flex;
+}
+.left .signinup-btn{
+    border: 1px solid #23A6F0;
+
 } 
 .detail-btn{
 background-color: #23A6F0;
@@ -427,18 +453,16 @@ max-width: 499px;
     position: absolute;
     left: 20px;
     top: 20px;
-    background-color: tomato;
+    background-color:#E74040;
     color: white;
     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
     text-align: center;
-    font-size: medium;
+    font-size: 14px;
     max-width: 205px;
     border-radius: 4px;
     padding: 5px 5px;
-    /* flex-direction: column; */
-    white-space: nowrap;
-    /* z-index: 2; */
-    text-overflow: ellipsis; 
     margin: 0px;  
 }
 .product_img{
@@ -447,18 +471,14 @@ max-width: 499px;
 .product-img{
 width: 100%;
 object-fit: fill;
-/* gap: 0px; */
-/* opacity: 0px; */
+
 }
 .customer-actions{
 display: flex;
 position: absolute;
 border-radius: 6px;
 width: 100%;
-/* height: 40px; */
-/* top: 30px; */
 bottom: 30px;
-/* left: 49px; */
 gap: 10px;
 opacity: 0px;
 }
@@ -467,6 +487,7 @@ opacity: 0px;
 }
 .options{
 background-color: white;
+border: none;
 border-radius: 50%;
 width: 40px;
 height: 40px;
@@ -527,6 +548,7 @@ margin: 0px;
 .prices {
 display: flex;
 width: 108px;
+font-size: 16px;
 height: 45px;
 padding: 0px 0px;
 margin: 0;
@@ -540,6 +562,7 @@ gap: 5px;
 }
 .frame{
     display: flex;
+    font-size: 14px;
     gap: 5px;
 }
 .timer1,.timer3{
@@ -584,6 +607,8 @@ color: #737373;
 }
 .price-headline{
     font-weight: 700;
+    font-size: 21px;
+
 
 }
 .pricing-box{
@@ -632,7 +657,7 @@ text-align: left;
 .customer-price{
 display: flex;
 color: #23A6F0;
-font-size: 14px;
+font-size: 22px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0.20000000298023224px;
@@ -652,7 +677,7 @@ text-align: left
     padding-bottom: 30px;
     color: #737373;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.20000000298023224px;
     text-align: left; 
@@ -804,7 +829,7 @@ text-align: center;
     color: #737373;
     font-weight: 400;  
 }
-.Names{
+.names{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;

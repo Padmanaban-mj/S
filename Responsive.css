@@ -10,9 +10,7 @@
      }
      .customer-actions{
         /* top: 555px; */
-
      }
-
 }
 @media(max-width:790px){
     .product-article{
@@ -50,7 +48,7 @@
     .nav-bar ,.Signup-btn {
         display: none;
     }
-    .collaborate-btn{
+    .signin-btn{
         justify-content: space-between;
         flex: 1;
     }
@@ -242,7 +240,7 @@ flex-direction: column;
     }
     /* ...................mobile view ........................*/
     @media(max-width:510px){
-    .collaborate-btn{
+    .signin-btn{
         padding: 15px 10px 15px 10px;
     }
     .subject {
@@ -321,7 +319,7 @@ font-size: 27px;
 }
 @media(max-width:350px){
 
-    .collaborate-btn{
+    .signin-btn{
         /* padding: 5px 5px 5px 5px;
         font-size: small; */
         gap: 10px;
@@ -416,18 +414,14 @@ font-size: 27px;
     padding-bottom: 50px;
 }
 }
-@media(max-width:393px){
-    .collaborate-btn{
-        /* display: none; */
-    }
-}
+
 @media(max-width:403px){
  
   /* .Signup-btn{
     display: none;
 
   } */
-  .collaborate-btn{
+  .signin-btn{
     /* display: none; */
   }
   .Signupn-btn{

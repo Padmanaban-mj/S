@@ -32,10 +32,6 @@
         gap:20px ;
     }
 }
-/* @media(max-width:910px){
-
-} */
-
 @media (min-width:869px){
     .menu:hover .dropdown {
         visibility: visible;

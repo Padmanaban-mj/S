@@ -32,26 +32,7 @@
         gap:20px ;
     }
 }
-@media (min-width:869px){
-    .menu:hover .dropdown {
-        visibility: visible;
-        transition: all ease-in-out 0.2s;
-        margin-top: -10px;
-        }
-}
-@media (max-width:869px){
 
-    .nav-bar ,.Signup-btn {
-        display: none;
-    }
-    .signin-btn{
-        justify-content: space-between;
-        flex: 1;
-    }
-    .nav-bar-elements{
-        justify-content: end;
-      }
-}
 @media(max-width:890px){
     .subject{
         text-align: center;
@@ -325,6 +306,21 @@ font-size: 27px;
     max-width: 320px;
 }
 @media(max-width:869px){
+      .nav-bar ,.Signup-btn {
+        display: none;
+    }
+    .menu:hover .dropdown {
+        visibility: visible;
+        transition: all ease-in-out 0.2s;
+        margin-top: -10px;
+        }
+    .signin-btn{
+        justify-content: space-between;
+        flex: 1;
+    }
+    .nav-bar-elements{
+        justify-content: end;
+      }
     label .Hamburger{
         display: block;
         }
@@ -413,12 +409,7 @@ font-size: 27px;
 
 @media(max-width:403px){
  
-  /* .Signup-btn{
-    display: none;
-
-  } */
   .signin-btn{
-    /* display: none; */
   }
   .Signupn-btn{
     display: block;

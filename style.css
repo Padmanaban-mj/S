@@ -16,7 +16,7 @@ body{
 }
 .section-nav{
 display: flex;
-/* padding: 20px 0px 20px 0px; */
+padding: 20px 0px 20px 0px;
 gap: 10px;
 align-items: center;
 justify-content: space-between;
@@ -107,13 +107,16 @@ color:#B2E3FF;
     .frame{
         margin: 0;
     }
+    .btn-aft{
+        display: none;
+    }
 .dropdown {
     visibility: hidden;
     z-index: 1;
     position: absolute;
     list-style-type: none;
     padding: 25px 0;
-    top: 60px;
+    top: 63px;
     position: fixed;
     background-color: #eee;
     display: flex;

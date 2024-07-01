@@ -8,18 +8,14 @@
      .product-article{
         display: flex;
      }
-     .customer-actions{
-        /* top: 555px; */
-     }
+    
 }
 @media(max-width:790px){
     .product-article{
         display: flex;
         flex-direction: column;
      }
-      .customer-actions{
-        /* width: 100% */
-     } 
+      
 }
 @media(max-width:1226px){
     .nav-bar-elements{
@@ -31,6 +27,7 @@
     .btn-grp{
         gap:20px ;
     }
+    
 }
 
 @media(max-width:890px){
@@ -79,28 +76,22 @@
     .cardssection{
         grid-template-columns:repeat(3,1fr);
     }
-    /* .product_card_sec{
-        padding-left: 89px;
-    } */
-    .product-article{
-        /* display: flex; */
-        /* flex-direction: ; */
-    }
+   
     .Redline{
         align-items: center;
         justify-content: center;
     }
+    .pricing-btn{
+        padding: 7px 25px;
+    }
 }
+
 @media (max-width:1000px){
    .btn-grp{
     gap: 10px;
    }
 }
-/* @media(max-width:1230px){
-    .product_card_sec{
-       flex-direction: row;
-    }
-}  */
+
 @media (max-width:698px) {
         .cardssection {
             gap: 50px;
@@ -234,6 +225,7 @@ flex-direction: column;
     }
 }
 @media(max-width:400px){
+
     #check:checked ~ .nav-bar-elements .nav-bar {
         visibility: visible;
         left: 0px;
@@ -243,6 +235,13 @@ flex-direction: column;
     }
     .btn-grp{
         flex-direction: column;
+    }
+    .btn-fill{
+        column-gap: 5px;
+        padding: 10px;
+    }
+    .btn-border{
+        padding: 15px 49px;
     }
     .cards-content-total .btn-grp{
         align-items: flex-start;
@@ -263,7 +262,7 @@ flex-direction: column;
     .sectionstastics-para{
     text-align: center;
     max-width: 350px;
-        }
+    }
     .headline{
     text-align: center;
     display: flex;
@@ -290,15 +289,13 @@ font-size: 27px;
 .latest-updated {
     font-size: x-large;
 }
- .product_card_sec {
-/* padding-left: 25px; */
+.pricing-btn{
+padding: 6px 30px;
 }
 }
 @media(max-width:350px){
 
     .signin-btn{
-        /* padding: 5px 5px 5px 5px;
-        font-size: small; */
         gap: 10px;
     }
 }  
@@ -306,21 +303,6 @@ font-size: 27px;
     max-width: 320px;
 }
 @media(max-width:869px){
-      .nav-bar ,.Signup-btn {
-        display: none;
-    }
-    .menu:hover .dropdown {
-        visibility: visible;
-        transition: all ease-in-out 0.2s;
-        margin-top: -10px;
-        }
-    .signin-btn{
-        justify-content: space-between;
-        flex: 1;
-    }
-    .nav-bar-elements{
-        justify-content: end;
-      }
     label .Hamburger{
         display: block;
         }
@@ -341,6 +323,9 @@ font-size: 27px;
         left: 0px;
         color: #fff;
         overflow-y: scroll;
+        padding: 1.5rem 4.5rem;
+        margin: 0;
+        top: 64px;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -365,7 +350,32 @@ font-size: 27px;
         z-index: 2;
         top: 0px;
     }
+    .menu:hover .dropdown {
+        visibility: visible;
+        transition: all ease-in-out 0.2s;
+        margin-top: -10px;
+        }
+    .nav-bar ,.Signup-btn {
+        display: none;
+    }
+    .signin-btn{
+        justify-content: space-between;
+        flex: 1;
+    }
+    .nav-bar-elements{
+        justify-content: end;
+      }
+      .btn-login{
+        display: none;
+      }
+      .btn-aft{
+        display: block;
+      }
+      .btn-fill{
+        padding: 11px;
+      }
 }
+
 @media(max-width:450px){
 .sectionstastics-tittle {
     padding: 0;
@@ -399,6 +409,8 @@ font-size: 27px;
     visibility: visible;
     left: 0px;
     padding: 1.5rem 5rem;
+    margin: 0;
+    top: 65px;
     color: #fff;
     overflow-y: scroll;
 }
@@ -409,8 +421,7 @@ font-size: 27px;
 
 @media(max-width:403px){
  
-  .signin-btn{
-  }
+ 
   .Signupn-btn{
     display: block;
     color: antiquewhite;
@@ -453,7 +464,9 @@ font-size: 27px;
         #check:checked ~ .nav-bar-elements .nav-bar {
             visibility: visible;
             left: 0px;
-            padding: 1.5rem 8rem;
+            padding: 1.5rem 9rem;
+            margin: 0;
+            top: 65px;
             color: #fff;
             overflow-y: scroll
     }
@@ -464,13 +477,22 @@ font-size: 27px;
     align-items: center;
     justify-content: center;
 }
+.btn-aft{
+    display: flex;
 }
+.btn-login{
+    display: none;
+}
+}
+
 @media(max-width:436px){
     .experts-title{
     align-items: center;
     text-align: center;
 }
 }
+
+
 @media(max-width:698px){
     .total-cards{
         align-items: center;

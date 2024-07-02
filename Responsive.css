@@ -13,6 +13,9 @@
     .btn-grp{
         padding: 0;
     }
+    .sectionstastics-para{
+        max-width: 400px;
+    }
     .product_card_sec{
         grid-template-columns:repeat(2,1fr) ;
      } 
@@ -79,6 +82,9 @@
     .final{
         grid-template-columns: repeat(2,1fr);
     }
+    /* .final{
+        grid-template-columns: repeat(2, 1fr)
+    } */
     .Final{
         display: flex;
         flex-direction: column;
@@ -114,9 +120,7 @@
             flex-direction: column;
             gap: 20px;
         }
-        .final{
-            grid-template-columns: repeat(2, 1fr)
-        }
+        /*  */
         .final-page{
             text-align: center;
             justify-content: center;
@@ -129,14 +133,17 @@
         }
         .pricing-box{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            /* grid-template-columns: repeat(2, 1fr); */
             gap: 50px;
             /* max-width: 35%; */
             justify-items: center;  
         }
-        .pricing-btn{
-
-        }
+       
+}
+@media(max-width:810px){
+    .pricing-box{
+        grid-template-columns: 1fr;
+    }
 }
 @media(max-width:790px){
     .product-article{
@@ -267,49 +274,39 @@ padding: 6px 30px;
         display: block;
         }
     .nav-bar {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center;
+        justify-content: center; */
         position: fixed;
         visibility: hidden;
-        /* display: flex; */
         flex-direction: column;
-        /* z-index: 1; */
-        background: rgb(23, 47, 78);
+        background-color: #23A6F0 !important;
+        color: var(--white);
         left:-100%;
         width: 50%;
-        
-        /* /* color: rgb(0, 0, 0); */
         top: 51px;
         padding: 8px;
-        height: calc(100vh - 50px);
+        height: calc(100vh - 65px);
+        overflow-y: scroll;
         transition: all ease-in-out 0.7s;
-        /* display: flex;
-        align-items: flex-start; */ 
     }
     #check:checked ~ .nav-bar-elements .nav-bar{
         visibility: visible;
-        left: 0px;
-        /* left: 0px; */
-        /* color: #fff;
-        overflow-y: scroll;
-        transition: ease-out 2s;
-        padding: 1.5rem 4.5rem; */
-        
-        /* display: flex;
-         justify-content: flex-start; */
-        /* margin: 0; */
+        left: 0px; 
     }
-        /* top: 64px; */
-
-        
     #checkbtn:checked ~ .dropdown{
         visibility: visible;
         left: 0px;
         top: 5px;
+        padding: 4px;
         position: relative;
     }
     #clickbtn:checked ~ .dropdown{
         visibility: visible;
         left: 0px;
         top: 5px;
+        padding: 4px;
         position: relative;
     }
     .section-nav{
@@ -324,9 +321,6 @@ padding: 6px 30px;
     .Signup-btn {
         display: none;
     }
-    /* .nav-bar{
-        visibility: hidden;
-    } */
     .signin-btn{
         justify-content: space-between;
         flex: 1;
@@ -488,7 +482,7 @@ padding: 6px 30px;
 }
 @media (max-width: 950px) {
     .cardssection {
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr); */
         grid-column-gap: 0px;
     }
 }

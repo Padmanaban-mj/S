@@ -2,6 +2,8 @@
 :root {
     --blue: #23A6f0;
     --white: #ffffff;
+    --Grey:#737373;
+    --navyblue:#252B42;
   }
 *{
     font-family: "Montserrat",sans-serif ;
@@ -45,14 +47,14 @@ color:#B2E3FF;
     font-size: 16px;
   }
   .btn-aft{
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--blue);
     column-gap: 10px;
     border: none;
     padding: 6px 15px 6px 15px;
     border-radius: 5px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
   }
   .btn-fill{
     background-color: var(--blue);
@@ -77,7 +79,7 @@ color:#B2E3FF;
   }
 .product-btn{
     border-color: var(--blue);
-    color: var(#23A6F0);
+    color: var(--blue);
     background-color: transparent;
     border-radius: 25px;
     column-gap: 5px;
@@ -148,12 +150,12 @@ color:#B2E3FF;
 .dropdown .dropdown-inbetween{
     color: #8ec2f2;
     border: none;
-    width: 94px;
+    width: 80px;
     border: solid 2px;
     height: 3px;
 }
 .nav-bar li a{
-color: #737373;
+color: var(--Grey);
 }
 .container{
 margin: 0 auto;
@@ -167,8 +169,8 @@ gap: 6px;
 align-items: flex-end;
 }
 .dropdown li:hover{
-background-color:var(--blue);
-padding: 5px 5px;
+/* background-color:gold; */
+/* padding: 5px 5px; */
 border-radius: 50px;
 }
 #checkbtn{
@@ -181,7 +183,7 @@ border-radius: 50px;
 display: flex;
 align-items:center;
 gap: 35px;
-color: #737373;
+color: var(--Grey);
 font-weight:600;
 font-size: 14px;
 list-style: none;
@@ -196,7 +198,7 @@ flex: 1;
     display: block;
 }
 .nav-bar .nav-elms a{
-color: #737373;
+color: var(--Grey);
 }
 .btn-grp{
 display: flex;
@@ -314,7 +316,7 @@ text-align: left;
     text-align: left;
     width: 376px;
     height: 60px;
-    color: #737373;
+    color: var(--Grey);
 }
 .subject{
 font-size: 58px;
@@ -422,7 +424,7 @@ width: 50px;
 height: 3.5px;
 }
 .box-para{
-color: #737373;
+color: var(--Grey);
 padding-top: 15px;
 font-family: Montserrat;
 font-size: 14px;
@@ -453,7 +455,7 @@ font-size: 40px;
 max-width: 100;
 overflow: hidden; 
 gap: 15px;
-color: #252B42;
+color: var(--navyblue);
 /* width: 350px; */
 
 }
@@ -472,7 +474,7 @@ color: var(--blue);
 align-items: center;
 }
 .sectionstastics-para{
-color: #737373;
+color: var(--Grey);
 max-width: 366px;
 font-size: 14px;
 font-weight: 500;
@@ -513,7 +515,7 @@ text-overflow: ellipsis;
 overflow: hidden; 
 }
 .product-title{
-color: #252B42;
+color: var(--navyblue);
 max-width: 714;
 font-size: 40px;
 font-weight: 700;
@@ -527,7 +529,7 @@ overflow: hidden;
 } 
 .cmn-para{
 font-size: 14px;
-color: #737373;
+color: var(--Grey);
 font-weight: 500;
 line-height: 15px;
 letter-spacing: 0.20000000298023224px;
@@ -571,7 +573,7 @@ bottom: 30px;
 gap: 10px;
 }
 .customer-actions a{
-    color: #252B42;
+    color: var(--navyblue);
 }
 
 .cards-content {
@@ -599,7 +601,7 @@ gap: 10px;
     display: flex;
     max-width: 55px;
     align-items: center;
-    background-color: #252B42;
+    background-color: var(--navyblue);
     gap: 5px;
     padding: 6px 4px;
     width: 50px;
@@ -607,7 +609,7 @@ gap: 10px;
     border-radius: 25px;
 }
     .product-content {
-        color: #737373;
+        color: var(--Grey);
         max-width: 226px;
         padding-top: 10px;
         font-size: 14px;
@@ -617,7 +619,7 @@ gap: 10px;
         text-align: left;
 }
 .sales{
-color: #737373;
+color: var(--Grey);
 padding-top: 10px;
 padding-bottom: 0px;
 margin: 0px;
@@ -635,7 +637,7 @@ opacity: 0px;
 
 }
 .og-rate{
-    color: #737373;
+    color: var(--Grey);
 }
 .real-time-rate{
     color: #40BB15;
@@ -658,7 +660,7 @@ opacity: 0px;
 padding: 10px;
 }
 .timer1-cont,.timer2-cont,.timer3-cont{
-    color: #737373;
+    color: var(--Grey);
     max-width: 40px;
     margin: 0;
     white-space: nowrap;
@@ -693,7 +695,7 @@ column-gap: 10px;
 }
 
 .pricing-title{
-    color: #252B42;
+    color: var(--navyblue);
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -714,7 +716,7 @@ border-radius: 50%;
 .price-cont{
  padding-top: 20px;
  padding-bottom: 20px;
- color: #737373;
+ color: var(--Grey);
 font-size: 14px;
 font-weight: 700;
 line-height: 24px;
@@ -749,7 +751,7 @@ text-align: left
 .pricing-describtion{
     padding: 0px;
     padding-bottom: 30px;
-    color: #737373;
+    color: var(--Grey);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -848,7 +850,7 @@ margin: 0;
 }
 
 .experts-title{
-    color: #252B42;
+    color: var(--navyblue);
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -884,7 +886,7 @@ text-align: center;
 }
 .description{
     max-width: 300px;
-    color: #737373;
+    color: var(--Grey);
     font-weight: 400;  
 }
 .names{
@@ -940,7 +942,7 @@ text-align: left;
     align-items: center;
 }
 .footer-title{
-  color: #252B42;
+  color: var(--navyblue);
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -949,7 +951,7 @@ text-align: left;
     text-align: center;  
 }
 .featured-para{
-color: #737373;
+color: var(--Grey);
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
@@ -989,7 +991,7 @@ padding-bottom: 100px;
     color:var(--blue);
 }
 .final-para{
-color: #737373;
+color: var(--Grey);
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
@@ -999,7 +1001,7 @@ text-align: left;
 .company_details, .features-offering, .devices{
     padding: 0;
     margin: 10px;
-    color: #737373;
+    color: var(--Grey);
 }
 .footer-featured{
     display: flex;
@@ -1009,13 +1011,13 @@ text-align: left;
     padding-top: 100px;
 }
 .footer-title{
-    color: #252B42;
+    color: var(--navyblue);
 }
 .info{
 max-width: 40;
 }
 .final a{
-color: #737373;
+color: var(--Grey);
 }
 .final{
     display: grid;
@@ -1026,7 +1028,7 @@ color: #737373;
     align-items: start;
 }
 .getintouch .info .featuring .Resource{
-color: #252B42;
+color: var(--navyblue);
 flex-direction: column; 
 text-overflow: ellipsis;
 max-width: 100%; 
@@ -1037,7 +1039,7 @@ overflow: hidden;
     justify-content: center;
 }
 .end-section{
-    color: #737373;
+    color: var(--Grey);
     background-color: #FAFAFA;
     width: 100%;
     height: 80px;

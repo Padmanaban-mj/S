@@ -14,7 +14,7 @@
         padding: 0;
     }
     .sectionstastics-para{
-        max-width: 400px;
+        max-width: 440px;
     }
     .product_card_sec{
         grid-template-columns:repeat(2,1fr) ;
@@ -74,29 +74,22 @@
         align-items: center;
         justify-content: center;
     }
-    /* .pricing-btn{
-        padding: 7px 25px;
-    } */
+   
 }
 @media(max-width:900px){
-    .final{
-        grid-template-columns: repeat(2,1fr);
-    }
-    /* .final{
-        grid-template-columns: repeat(2, 1fr)
+    
+    /* .Final{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     } */
-    .Final{
+    /* .signature-section{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .signature-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    } */
     .final-para{
-        text-align: center;
+        /* text-align: center; */
     }
      .subject{
         text-align: center;
@@ -120,7 +113,7 @@
             flex-direction: column;
             gap: 20px;
         }
-        /*  */
+        
         .final-page{
             text-align: center;
             justify-content: center;
@@ -133,9 +126,7 @@
         }
         .pricing-box{
             display: grid;
-            /* grid-template-columns: repeat(2, 1fr); */
             gap: 50px;
-            /* max-width: 35%; */
             justify-items: center;  
         }
        
@@ -144,8 +135,6 @@
     .pricing-box{
         grid-template-columns: 1fr;
     }
-}
-@media(max-width:790px){
     .product-article{
         display: flex;
         flex-direction: column;
@@ -159,22 +148,21 @@
     .experts-adpage{
 flex-direction: column;
     }
+    .pricing-box{
+        grid-template-columns: 1fr;
+    }
 }
    
- @media(max-width:520px){
-        .final{
+ /* @media(max-width:520px){
+        /* .final{
             grid-template-columns: repeat(1,1fr);
             text-align: center;
-        }
-        .types-social{
+        } */
+        /* .types-social{
           justify-content: center;
-        }
-    }
-    @media(max-width:640px){
-        .pricing-box{
-            grid-template-columns: 1fr;
-        }
-    }
+        } */
+      
+    /* }  */
     /* ...................mobile view ........................*/
     @media(max-width:510px){
     .signin-btn{
@@ -191,18 +179,30 @@ flex-direction: column;
        text-align: center;
        padding-bottom: 50px;
     }
+    .footer .final{
+        grid-template-columns:1fr;
+       }
+       .signature-section{
+        align-items: center;
+        justify-content: center;
+       }
+       .FINAL{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       }
 }
 @media(max-width:400px){
-    /* #check:checked ~ .nav-bar-elements .nav-bar {
-        visibility: visible;
-        left: 0px;
-        padding: 0.5rem 6rem;
-        color: #fff;
-        overflow-y: scroll
-    } */
     .btn-grp{
         flex-direction: column;
     }
+    .signin-btn{
+        gap: 10px;
+    } 
+   .sectionstastics-para{
+    max-width: 320px;
+}
     .btn-fill{
         column-gap: 5px;
         padding: 10px;
@@ -260,15 +260,7 @@ font-size: 27px;
 padding: 6px 30px;
 }
 }
-@media(max-width:350px){
-
-    .signin-btn{
-        gap: 10px;
-    }
-}  
-.sectionstastics-para{
-    max-width: 320px;
-}
+ 
 @media(max-width:869px){
     label .Hamburger{
         display: block;
@@ -373,17 +365,14 @@ padding: 6px 30px;
 .pink{
     height: 463px;
 } 
-/* #check:checked ~ .nav-bar-elements .nav-bar {
-    visibility: visible;
-    left: 0px;
-    padding: 1.5rem 5rem;
-    margin: 0;
-    top: 65px;
-    color: #fff;
-    overflow-y: scroll;
-} */
 .designation {
     padding-bottom: 50px;
+}
+.sectionstastics-para{
+    max-width: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 }
 @media(max-width:403px){
@@ -418,22 +407,9 @@ padding: 6px 30px;
     gap: 10px;
     color: antiquewhite;
   }
+  .Brand{
+    font-size:22px ;
 }
-@media(max-width:335px){
-    .Brand{
-        font-size:22px ;
-    }
-}
-@media(max-width:365px){
-        /* #check:checked ~ .nav-bar-elements .nav-bar {
-            visibility: visible;
-            left: 0px;
-            padding: 1.5rem 9rem;
-            margin: 0;
-            top: 65px;
-            color: #fff;
-            overflow-y: scroll
-    } */
 }
 @media(max-width:768px){
 .final-page{
@@ -480,9 +456,26 @@ padding: 6px 30px;
         grid-template-columns: 1fr;
 }
 }
-@media (max-width: 950px) {
+@media (max-width: 955px) {
     .cardssection {
-        /* grid-template-columns: repeat(2, 1fr); */
         grid-column-gap: 0px;
     }
+    .final{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .signature-section{
+        align-items: center;
+        justify-content: center;
+       }
+       .FINAL{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       }
+       .final-para{
+        text-align: center;
+       }
+
+    
 }

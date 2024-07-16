@@ -267,11 +267,12 @@ padding: 6px 30px;
     label .Hamburger{
         display: block;
         }
+        .menu .dropdown  li a {
+            color: black;
+     }
     .nav-bar {
         display: flex;
         flex-direction: row;
-        /* align-items: center;
-        justify-content: center; */
         position: fixed;
         visibility: hidden;
         flex-direction: column;
@@ -284,6 +285,10 @@ padding: 6px 30px;
         height: calc(100vh - 65px);
         overflow-y: scroll;
         transition: all ease-in-out 0.7s;
+    }
+    .nav-bar li a{
+        color: white;
+        font-size: medium;
     }
     #check:checked ~ .nav-bar-elements .nav-bar{
         visibility: visible;

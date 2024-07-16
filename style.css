@@ -14,12 +14,14 @@ h2,h1,p{
     margin: 0;
 }
 body{
-   margin: 0;
-   padding: 0;
-}
+    margin: 0;
+    padding: 0;
+ }
 .bg_color{
     background-color:var(--white);
 }
+.responsivelinks {cursor:pointer;}
+
 .section-nav{
 display: flex;
 padding: 20px 0px 20px 0px;
@@ -28,7 +30,7 @@ align-items: center;
 justify-content: space-between;
 }
 .nav-bar li a:hover {
-color:#B2E3FF;
+color: black;
 }
 .Brand{
     font-size:24px
@@ -140,7 +142,7 @@ color:#B2E3FF;
     padding: 25px 0;
     top: 63px;
     position: fixed;
-    background-color: #eee;
+    background-color:#23A6F0;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -148,11 +150,11 @@ color:#B2E3FF;
     border-radius: 3px;
 } 
 .dropdown .dropdown-inbetween{
-    color: #8ec2f2;
+    /* color: #8ec2f2; */
     border: none;
-    width: 80px;
+    /* width: 80px;
     border: solid 2px;
-    height: 3px;
+    height: 3px; */
 }
 .nav-bar li a{
 color: var(--Grey);
@@ -169,8 +171,6 @@ gap: 6px;
 align-items: flex-end;
 }
 .dropdown li:hover{
-/* background-color:gold; */
-/* padding: 5px 5px; */
 border-radius: 50px;
 }
 #checkbtn{
@@ -1036,8 +1036,6 @@ color: var(--Grey);
     grid-template-columns: repeat(4 ,1fr);
     padding-bottom: 50px;
     padding-top: 50px;
-    /* justify-items: center; */
-    /* align-items: start; */
 }
 .getintouch .info .featuring .Resource{
 color: var(--navyblue);
